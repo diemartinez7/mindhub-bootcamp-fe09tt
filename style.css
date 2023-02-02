@@ -59,19 +59,30 @@ h2 {
     padding: 12px;
 }
 
-.logo {
-    width: 15%;
+aside {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 20%;
 }
 
-aside {
-    display: inline;
+aside a {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    color: #c14b34;
+    margin: 0px 10px 0px 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px black;
 }
 
 section {
-    width: 500px;
     position: relative;
-    bottom: 20vh;
-    left: 20vw;
+    float: right;
+    width: 80%;
+    padding: 3%;
 }
 
 .heading {
@@ -85,18 +96,14 @@ h3 {
 
 p {
     padding: 10px;
+    margin: 2px;
+    font-size: 1.2vw;
 }
 
 article {
     margin-bottom: 20px;
 }
 
-.about {
-    width: 750px;
-    position: relative;
-    bottom: 20vh;
-    left: 20vw;
-}
 
 .items {
     margin-bottom: 20px;
@@ -104,11 +111,4 @@ article {
 
 div h3 {
     font-style: normal;
-}
-
-.contact {
-    width: 750px;
-    position: relative;
-    bottom: 20vh;
-    left: 20vw;
 }
