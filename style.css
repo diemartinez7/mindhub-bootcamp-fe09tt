@@ -82,8 +82,10 @@ section {
     position: relative;
     float: right;
     width: 80%;
-    padding: 3%;
+    padding: 2vw;
 }
+
+/* Empty title for correct validation*/
 
 .heading {
     display: none;
@@ -104,11 +106,85 @@ article {
     margin-bottom: 20px;
 }
 
-
 .items {
     margin-bottom: 20px;
 }
 
 div h3 {
     font-style: normal;
+}
+
+/* Calendar page */
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f8e12e;
+    padding: 12px;
+}
+
+#details-schedule {
+    margin: 12px 0px 0px 12px;
+}
+
+#communication {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Rules page */
+
+#subtitle-rules {
+    font-size: 120%;
+    margin-left: 15%;
+}
+
+dl {
+    margin: 12px;
+}
+
+dt {
+    font-weight: bold;
+    margin: 8px;
+}
+
+dd {
+    padding: 12px;
+    text-indent: 25px;
+}
+
+#regulations-title {
+    font-weight: bold;
+    font-size: 100%;
+    margin: 0.5vw;
+}
+
+ol {
+    margin-left: 3vw;
+}
+
+ol li {
+    margin-bottom: 2vh;
+}
+
+#ages {
+    list-style-type: lower-latin;
+    margin-left: 4vw;
+}
+
+#coach {
+    list-style: circle;
+    margin-left: 5vw;
+    margin-top: -2vh;
 }
